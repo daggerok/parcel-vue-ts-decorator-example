@@ -1,0 +1,64 @@
+{
+  "name": "parcel-vue-ts-decorator-example",
+  "version": "1.0.0",
+  "description": "VueJS TypeScript (decorators) Parcel app",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf -rf dist out",
+    "prebuild": "npm run clean",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "preserve": "npm run build",
+    "serve": "serve dist",
+    "prepretest": "npm run clean",
+    "pretest": "parcel build ./test_map.js -d ./out",
+    "test": "mocha -r jsdom-global/register",
+    "lint": "tslint -p .",
+    "gh-pages": "npm-run-all gh-pages:*",
+    "gh-pages:env-gh": "ncp .env.gh .env",
+    "gh-pages:build": "npm run build -- --no-cache --public-url='/parcel-vue-ts-decorator-example/'",
+    "gh-pages:404": "ncp ./dist/index.html ./dist/404.html",
+    "gh-pages:nojekyll": "echo \"\" > ./dist/.nojekyll",
+    "gh-pages:env-restore": "ncp .env.build .env"
+  },
+  "keywords": [
+    "vue",
+    "parcel",
+    "deorators",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/component-compiler-utils": "3.0.0",
+    "less": "3.9.0",
+    "register-service-worker": "1.6.2",
+    "tslib": "1.9.3",
+    "typescript": "3.4.5",
+    "vue": "2.6.10",
+    "vue-class-component": "7.1.0",
+    "vue-hot-reload-api": "2.3.3",
+    "vue-property-decorator": "8.1.1",
+    "vue-router": "3.0.6",
+    "vue-template-compiler": "2.6.10"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.0",
+    "chai": "4.2.0",
+    "cypress": "3.2.0",
+    "jsdom": "15.0.0",
+    "jsdom-global": "3.0.2",
+    "mocha": "6.1.4",
+    "ncp": "2.0.0",
+    "npm-run-all": "4.1.5",
+    "parcel-bundler": "1.12.3",
+    "parcel-plugin-interpolate-html": "1.0.0",
+    "reflect-metadata": "0.1.13",
+    "rimraf": "2.6.3",
+    "serve": "11.0.0",
+    "tslint": "5.16.0"
+  }
+}

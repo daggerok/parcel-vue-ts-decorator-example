@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "es2015",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "include": [
+    "./**/*.ts",
+    "./**/*.vue",
+    "./**/*.tsx"
+  ],
+  "compileOnSave": false,
+  "parcelTsPluginOptions": {
+    // If true type-checking is disabled
+    "transpileOnly": false
+  },
+  "parcel-plugin-typescript": {
+    // If true type-checking is disabled
+    "transpileOnly": false
+  }
+}
