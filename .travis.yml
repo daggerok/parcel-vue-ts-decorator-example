@@ -23,6 +23,14 @@ script:
   - wait_for 1234
   - curl http://127.0.0.1:1234/
   - stop_any 1234
+cache:
+  packages: true
+  npm: true
+  directories:
+    - ~/.npm
+    - ~/.node
+    - ~/.cache
+    - ~/.cypress
 env:
   global:
     secure: LdSPYjdPPkvsCTu+fK/X4ya66aOd3s2au3s5xZeW8wiexIpVo8Yd9Zljcpy/1256piXUXlgFSfNbfp/cQEW1ODoXpn3S426B697KXhza/y3sDCVCRjmp5nRF7TxBA4F/FeNpizIE98b3Hj9IkdUdfLZJG31WpxWk2uvLDc+6jVGtpAE7lSbVHN9n8Y4EuVvk2LTdaYQxFCs4Os5mZ7f/dqPcmwG4pMUpdPaCGhT0iktXoxrnWunJX7tx8tn5362mNowQ0azYFIovCGTlRvyIueAUyBLR6S3XY1uq+/tzRJwrTtmzVKcve4d7vUwXldNVgNTPn6/A38RR4MnYDi5ACEXyo2S0nlsxcRanHEUpF4RgB1KtGlDf/o126ieMh9+E5BnXMS49gZzJei0SeV9orelEMMsnDOa+8xVw3aa9ZGs9DWK7Wz4EYDRfQDz5IskReV19k6FkGBhWxjqDTs/DwYNYLO0rYyvsI9Lv3M0B5gOztc2NOCFMTqpAr10SSpmKYq8m34qzeKQx4zWBED0VZzdqZ0pO5lQ1fMlWpBwO7Gff1V7C5vEQ3uMjIRceKvyA/sUNN5DaOK/7k3YonVIp2gp7VSF8vvtsatXQJWYOYxNvUhuDG8jSGJFZrRgY52xz1At0w1yIMCMI1CHYI0ALI3INFruQB7w1mbrRs0IKvbs=
