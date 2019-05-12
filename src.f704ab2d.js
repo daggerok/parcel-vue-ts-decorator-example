@@ -33,4 +33,4 @@ module.exports=function(e){return new Promise(function(n,o){var r=document.creat
 },{}],0:[function(require,module,exports) {
 var b=require("21/1");b.register("js",require("Yi9z"));b.register("css",require("dZuk"));
 },{}]},{},[0,"7QCb"], null)
-//# sourceMappingURL=/parcel-vue-ts-decorator-example/src.4e0c141c.js.map
+//# sourceMappingURL=/parcel-vue-ts-decorator-example/src.f704ab2d.js.map
