@@ -1,4 +1,4 @@
-## Vue.js + TypeScript (with decorators) + Parcel
+## Vue.js + TypeScript (with decorators) + Parcel [![Build Status](https://travis-ci.org/daggerok/parcel-vue-ts-decorator-example.svg?branch=master)](https://travis-ci.org/daggerok/parcel-vue-ts-decorator-example)
 Awesome Vue TypeScript Component usage (decorators) with parcel-bundler build 
 
 __Development__
