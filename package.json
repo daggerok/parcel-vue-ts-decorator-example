@@ -2,6 +2,10 @@
   "name": "parcel-vue-ts-decorator-example",
   "version": "1.0.0",
   "description": "VueJS TypeScript (decorators) Parcel app",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "engines": {
+    "node": "16"
+  },
   "main": "index.js",
   "scripts": {
     "clean": "rimraf -rf dist out",

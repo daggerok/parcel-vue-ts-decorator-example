@@ -1,5 +1,9 @@
-## Vue.js + TypeScript (with decorators) + Parcel [![Build Status](https://travis-ci.org/daggerok/parcel-vue-ts-decorator-example.svg?branch=master)](https://travis-ci.org/daggerok/parcel-vue-ts-decorator-example)
+## Vue.js + TypeScript (with decorators) + Parcel [![CI](https://github.com/daggerok/parcel-vue-ts-decorator-example/actions/workflows/ci.yaml/badge.svg)](https://github.com/daggerok/parcel-vue-ts-decorator-example/actions/workflows/ci.yaml)
 Awesome Vue TypeScript Component usage (decorators) with parcel-bundler build 
+
+<!-- old Travis status badge:
+[![Build Status](https://travis-ci.org/daggerok/parcel-vue-ts-decorator-example.svg?branch=master)](https://travis-ci.org/daggerok/parcel-vue-ts-decorator-example)
+-->
 
 __Development__
 
